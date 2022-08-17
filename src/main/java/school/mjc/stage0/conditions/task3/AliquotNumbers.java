@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.task3;
 
 public class AliquotNumbers {
     public void isFirstAliquot(int first, int second) {
-        int s = 0, first = 12, second = 16;
+        int s = 0;
         for (int i = 1; i <= (first / 2); i++) {
             if (first % i == 0) s += i;
         }
