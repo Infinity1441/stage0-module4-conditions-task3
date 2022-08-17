@@ -2,7 +2,7 @@ package school.mjc.stage0.conditions.task3;
 
 public class DaysInMonthPrinter {
     public void amountOfDays(int month) {
-        switch (month){
+       switch (month){
           case 1:
               System.out.println(31);break;
           case 2: System.out.println(28); break;
